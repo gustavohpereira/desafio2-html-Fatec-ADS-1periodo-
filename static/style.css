@@ -39,12 +39,12 @@
 
 main{
     background-color: var(--cinza_principal);
-    
+    padding: 1em 20%;
 }
 .principal{
     display: flex;
    
-    padding: 1em 20%;
+    
 }
 .titulo_postagem{
     color: var(--amarelo_principal);
@@ -92,10 +92,17 @@ main{
     
 }
 .titulo_card_lateral{
-    color: rgb(88, 88, 88);
+    color: black;
+    
     background-color: rgb(177, 177, 177);
     font-size: 20px;
 }
 .card_lateral ul{
     color: var(--amarelo_principal);
+}
+.rodape{
+    text-align: center;
+    background-color: gray;
+    
+    
 }
